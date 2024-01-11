@@ -1,6 +1,9 @@
 {
   "version": 2,
   "suites": {
+    "test/e2e/app-dir/actions/app-action.test.ts": {
+      "failed": ["app-dir action handling should work with interception routes"]
+    },
     "test/e2e/app-dir/app-static/app-static.test.ts": {
       "failed": [
         "app-dir static/dynamic handling usePathname should have values from canonical url on rewrite",
@@ -23,7 +26,9 @@
     "test/e2e/app-dir/parallel-routes-and-interception/parallel-routes-and-interception.test.ts": {
       "failed": [
         "parallel-routes-and-interception route intercepting should render modal when paired with parallel routes",
-        "parallel-routes-and-interception route intercepting should support intercepting local dynamic sibling routes"
+        "parallel-routes-and-interception route intercepting should support intercepting local dynamic sibling routes",
+        "parallel-routes-and-interception route intercepting should render an intercepted route at the top level from a nested path",
+        "parallel-routes-and-interception route intercepting should render an intercepted route from a slot"
       ]
     },
     "test/e2e/app-dir/error-boundary-navigation/override-node-env.test.ts": {
