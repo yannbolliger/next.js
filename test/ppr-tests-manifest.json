@@ -25,10 +25,7 @@
     },
     "test/e2e/app-dir/parallel-routes-and-interception/parallel-routes-and-interception.test.ts": {
       "failed": [
-        "parallel-routes-and-interception route intercepting should render modal when paired with parallel routes",
-        "parallel-routes-and-interception route intercepting should support intercepting local dynamic sibling routes",
-        "parallel-routes-and-interception route intercepting should render an intercepted route at the top level from a nested path",
-        "parallel-routes-and-interception route intercepting should render an intercepted route from a slot"
+        "parallel-routes-and-interception route intercepting should render modal when paired with parallel routes"
       ]
     },
     "test/e2e/app-dir/error-boundary-navigation/override-node-env.test.ts": {
